@@ -7,7 +7,7 @@ function Users() {
     <div>
       <h1>Users Page</h1>
 
-      <ul>
+      <ul className={styles.ul}>
         {users.map((user) => (
           <li key={user.id}>
             <Link to={`/users/${user.id}`}>{user.name}</Link>

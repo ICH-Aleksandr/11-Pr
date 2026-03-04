@@ -14,8 +14,8 @@ const navMenu = [
 
 function Nav() {
   return (
-    <nav>
-      <ul>
+    <nav className={styles.nav}>
+      <ul className={styles.ul}>
         {navMenu.map((menuItem) => {
           return (
             <li key={menuItem.title}>
